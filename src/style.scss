@@ -1,0 +1,54 @@
+:root {
+  --content-width: 60rem;
+  --background-color: white;
+  --accent-background-color: #fbfbfd;
+  --text-color: rgb(60, 65, 75);
+  --link-color: darkblue;
+  --red: rgb(197, 0, 20);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #3c414b;
+    --text-color: white;
+    --link-color: white;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 16px;
+  font-family: Avenir, Helvetica Neue, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:link {
+  color: var(--link-color);
+}
+
+.main {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.map {
+  height: 32rem;
+  min-height: 100%;
+}

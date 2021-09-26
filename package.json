@@ -1,0 +1,20 @@
+{
+  "name": "ds100-map",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.42.1",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4"
+  },
+  "dependencies": {
+    "d3-fetch": "^3.0.1",
+    "d3-selection": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "leaflet": "^1.7.1"
+  }
+}
