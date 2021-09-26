@@ -1,5 +1,7 @@
 # DS100 Map
 
+![Screenshot der Karte](https://github.com/weiland/ds100-map/blob/main/src/data/screenshot.jpg?raw=true)
+
 Live Version:
 
 
